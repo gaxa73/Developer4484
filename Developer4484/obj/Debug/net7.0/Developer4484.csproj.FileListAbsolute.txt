@@ -1,0 +1,15 @@
+/Users/ivanhudan/Projects/Developer4484/Developer4484/bin/Debug/net7.0/Developer4484
+/Users/ivanhudan/Projects/Developer4484/Developer4484/bin/Debug/net7.0/Developer4484.deps.json
+/Users/ivanhudan/Projects/Developer4484/Developer4484/bin/Debug/net7.0/Developer4484.runtimeconfig.json
+/Users/ivanhudan/Projects/Developer4484/Developer4484/bin/Debug/net7.0/Developer4484.dll
+/Users/ivanhudan/Projects/Developer4484/Developer4484/bin/Debug/net7.0/Developer4484.pdb
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/Developer4484.csproj.AssemblyReference.cache
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/Developer4484.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/Developer4484.AssemblyInfoInputs.cache
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/Developer4484.AssemblyInfo.cs
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/Developer4484.csproj.CoreCompileInputs.cache
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/Developer4484.dll
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/refint/Developer4484.dll
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/Developer4484.pdb
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/Developer4484.genruntimeconfig.cache
+/Users/ivanhudan/Projects/Developer4484/Developer4484/obj/Debug/net7.0/ref/Developer4484.dll
