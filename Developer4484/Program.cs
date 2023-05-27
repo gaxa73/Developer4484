@@ -88,13 +88,73 @@
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
 
-Console.Write("Введите первое число: ");
-int n = int.Parse(Console.ReadLine()!);
-int i = 2;
+//Console.Write("Введите первое число: ");
+//int n = int.Parse(Console.ReadLine()!);
+//int i = 2;
 
-while (i <= n)
-{
-    Console.WriteLine(i);
-    i += 2;
-}
+//while (i <= n)
+//{
+//    Console.WriteLine(i);
+//    i += 2;
+//}
+
+//Домашнее задание:
+//к второму семминару.
+
+//Урок 2. Базовые алгоритмы
+
+//Задача 10:
+//Напишите программу,
+//которая принимает на вход трёхзначное число
+//и на выходе показывает вторую цифру этого числа.
+//456 -> 5
+//782 -> 8
+//918 -> 1
+
+//Console.WriteLine("Введите трехзначное число:>>> ");
+//int number = int.Parse(Console.ReadLine()!);
+//string num = Convert.ToString(number);
+//Console.WriteLine($"вторая цифра числа >>> {num[1]} ");
+
+
+//Задача 13:
+//Напишите программу,
+//которая выводит третью цифру заданного числа
+//или сообщает, что третьей цифры нет.
+//645 -> 5
+//78 -> третьей цифры нет
+//32679 -> 6
+
+//Console.Write("Введи число: ");
+//int num = Convert.ToInt32(Console.ReadLine());
+//string num1 = Convert.ToString(num);
+//if (num1.Length > 2)
+//{
+//    Console.WriteLine($"третья цифра >>> {num1[2]} ");
+//}
+//else
+//{
+//    Console.WriteLine(">>> третьей цифры нет");
+//}
+
+//Задача 15:
+//Напишите программу,
+//которая принимает на вход цифру, обозначающую день недели,
+//и проверяет, является ли этот день выходным.
+//6 -> да
+//7 -> да
+//1->нет
+
+//Console.WriteLine("Введите день недели от 1, до 7, ");
+//int dNum = Convert.ToInt32(Console.ReadLine());
+
+//if (dNum == 6 || dNum == 7)
+//{
+//    Console.Write("Этот день выходной Ура -> Да");
+//}
+//else if (dNum < 1 || dNum > 7)
+//{
+//    Console.Write("Введите число от 1 до 7, ");
+//}
+//else Console.Write("Этот день не выходной -> Нет");
 
