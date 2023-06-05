@@ -221,16 +221,17 @@
 //3 -> 1, 8, 27
 //5 -> 1, 8, 27, 64, 125
 
-Console.Write("Введите число >>> ");
-int N = int.Parse(Console.ReadLine()!);
+//Console.Write("Введите число >>> ");
+//int N = int.Parse(Console.ReadLine()!);
 
-for (int i = 1; i <= N; i++)
-{
-    Console.WriteLine(Math.Pow(i, 3));
-}
+//for (int i = 1; i <= N; i++)
+//{
+//    Console.WriteLine(Math.Pow(i, 3));
+//}
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+//Домашнее задание к 4-му семминару.
 //Урок 4. Функции
 //Задача 25:
 //Напишите цикл,
@@ -239,12 +240,18 @@ for (int i = 1; i <= N; i++)
 //3, 5 -> 243 (3⁵)
 //2, 4-> 16
 
+//int a = int.Parse(Console.ReadLine()!);
+//int b = int.Parse(Console.ReadLine()!);
+//int result = 1;
 
+//for (int i = 0; i < b; i++)
+//{
+//    result *= a;
 
+//}
+//Console.WriteLine(result);
 
-
-
-
+//Console.WriteLine(Math.Pow(a, b));
 
 
 //Задача 27:
@@ -254,23 +261,84 @@ for (int i = 1; i <= N; i++)
 //82 -> 10
 //9012 -> 12
 
+//int a = int.Parse(Console.ReadLine()!);
+//int res = 0;
 
-
-
-
-
+//for (int i = a; i != 0; i /= 10)
+//{
+//    res += i % 10;
+//}
+//Console.WriteLine(res);
 
 
 //Задача 29: Напишите программу,
 //которая задаёт массив из 8 элементов и выводит их на экран.
 //1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
-//6, 1, 33-> [6, 1, 33]
+//6, 1, 33 -> [6, 1, 33]
+
+//int[] num = new int[8];
+//for (int i = 0; i < 8; i++)
+//{
+//    Console.Write("Введите число >>> ");
+//    num[i] = int.Parse(Console.ReadLine()!);
+//}
+//Console.WriteLine();
+//Console.WriteLine(String.Join(", ", num));
+
+
+// Входные данные:
+// 2
+// 10
+// 20
+// Выходные данные:
+// 30
+
+//Console.Write("Введите количество чисел >>> ");
+//int count = int.Parse(Console.ReadLine()!);
+//int res = 0;
+
+//for (int i = 0; i < count; i++)
+//{
+//    Console.Write("Введите число >>> ");
+//    res += int.Parse(Console.ReadLine()!);
+
+//}
+//Console.WriteLine($"Ответ: {res}");
+
+
+// Входные данные:
+// Введите количество чисел >>> 5
+// Введите число >>> 10
+// Введите число >>> 70
+// Введите число >>> -15
+// Введите число >>> 220
+// Введите число >>> -49
+// Выходные данные:
+// Минимальное значение: -49
+// Максимальное значение: 220
+
+
+Console.Write("Введите количество чисел >>> ");
+int count = int.Parse(Console.ReadLine()!);
+int min = 0;
+int max = 0;
+
+
+for (int i = 0; i < count; i++)
+{
+    Console.Write("Введите число >>> ");
+    int number = int.Parse(Console.ReadLine()!);
+    if (number < min)
+        min = number;
+    if (number > max)
+        max = number;
+}
+Console.WriteLine($"Минимальное значение: {min}");
+Console.WriteLine($"Максимальное значение: {max}");
 
 
 
 
-
-
-
+Console.ReadKey();
 
 
